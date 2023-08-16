@@ -1,0 +1,256 @@
+.container {
+  text-align: center;
+  padding: 50px;
+  background-color: blueviolet;
+  background-size: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card {
+  height: 350px;
+  width: 350px;
+  background-color: bisque;
+  border-radius: 20px;
+  padding: 20px;
+}
+.heading {
+  font-size: 22px;
+  color: hotpink;
+  font-family: 'Roboto';
+  margin: 20px;
+  font-weight: bold;
+}
+.username-mobileNo {
+  height: 26px;
+  width: 120px;
+  border-radius: 8px;
+  border: 2px solid lightskyblue;
+  margin: 15px;
+}
+.register-btn {
+  height: 30px;
+  width: 100px;
+  background-color: aqua;
+  color: red;
+  border-radius: 15px;
+  border: 0px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+.main-card {
+  background-color: mediumaquamarine;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 8px;
+}
+.content-heading {
+  font-size: 25px;
+  color: brown;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 10px;
+}
+.post-content {
+  height: 30px;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+  margin: 10px;
+}
+.create-btn {
+  height: 30px;
+  width: 100px;
+  color: hotpink;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  border: 0px;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.main-content {
+  background-color: lightblue;
+  border-radius: 10px;
+  margin: 8px;
+  padding: 20px;
+}
+.search-post {
+  font-size: 18px;
+  font-weight: 700;
+  color: tomato;
+  margin: 10px;
+}
+.input-search {
+  height: 25px;
+  width: 50%;
+  border-radius: 10px;
+  border: 2px solid darkgrey;
+}
+.posts {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+  margin: 10px;
+}
+.unordered-list {
+  padding: 25px;
+
+  background-color: orchid;
+  border-radius: 10px;
+}
+.list-item {
+  list-style-type: none;
+  margin: 10px;
+}
+.post-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: blanchedalmond;
+  margin: 10px;
+  font-style: italic;
+}
+.likes-heading {
+  font-size: 15px;
+  color: blue;
+  font-style: italic;
+  margin: 10px;
+}
+.likes {
+  font-size: 15px;
+  color: hsl(63, 85%, 5%);
+  font-weight: bold;
+  margin: 8px;
+}
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: blueviolet;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .card {
+    height: 220px;
+    width: 150px;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 20px;
+  }
+  .heading {
+    font-size: 15px;
+    color: hotpink;
+    font-family: 'Roboto';
+    margin: 8px;
+  }
+  .username-mobileNo {
+    height: 22px;
+    width: 90px;
+    border-radius: 8px;
+    border: 2px solid lightskyblue;
+    margin: 8px;
+  }
+  .register-btn {
+    height: 30px;
+    width: 80px;
+    background-color: aqua;
+    color: red;
+    border-radius: 15px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin: 8px;
+  }
+  .main-card {
+    background-color: mediumaquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    width: 180px;
+    margin: 8px;
+  }
+  .content-heading {
+    font-size: 18px;
+    color: brown;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin: 7px;
+  }
+  .post-content {
+    height: 25px;
+    width: 120px;
+    border-radius: 8px;
+    border: 2px solid goldenrod;
+    margin: 8px;
+  }
+  .create-btn {
+    height: 30px;
+    width: 90px;
+    color: hotpink;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    border: 0px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .main-content {
+    background-color: lightblue;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+  }
+  .search-post {
+    font-size: 16px;
+    font-weight: 600;
+    color: tomato;
+    margin: 8px;
+  }
+  .input-search {
+    height: 22px;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid darkgrey;
+  }
+  .posts {
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+    margin: 8px;
+  }
+  .unordered-list {
+    padding: 15px;
+    background-color: orchid;
+    border-radius: 10px;
+  }
+  .list-item {
+    list-style-type: none;
+    margin: 8px;
+  }
+  .post-text {
+    font-size: 13px;
+    font-weight: 500;
+    color: blanchedalmond;
+    margin: 8px;
+    font-style: italic;
+  }
+  .likes-heading {
+    font-size: 10px;
+    color: blue;
+    font-style: italic;
+    margin: 8px;
+  }
+  .likes {
+    font-size: 10px;
+    color: hsl(63, 85%, 5%);
+    font-weight: bold;
+    margin: 8px;
+  }
+}

@@ -1,0 +1,36 @@
+.update-post {
+  height: 20px;
+  width: 120px;
+  border-radius: 8px;
+  border: 2px solid grey;
+  margin: 8px;
+}
+.button {
+  height: 23px;
+  width: 70px;
+  color: maroon;
+  border-radius: 8px;
+  padding: 3px;
+  border: 2px solid honeydew;
+  margin: 8px;
+  font-size: 12px;
+}
+@media (max-width: 576px) {
+  .update-post {
+    height: 18px;
+    width: 90px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    margin: 8px;
+  }
+  .button {
+    height: 20px;
+    width: 40px;
+    color: maroon;
+    border-radius: 8px;
+    padding: 3px;
+    border: 2px solid honeydew;
+    margin: 3px;
+    font-size: 10px;
+  }
+}
